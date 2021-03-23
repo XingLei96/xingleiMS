@@ -30,19 +30,19 @@
         >
           <ul class="navbar-nav" id="headerNav">
             <li class="nav-item" id="navMainPage">
-              <span class="nav-link">{{$t('header.aboutUs')}}</span>
+              <span class="nav-link">{{ $t("header.aboutUs") }}</span>
             </li>
             <li class="nav-item" id="navTechPage">
-              <span class="nav-link">{{$t('header.ourProducts')}}</span>
+              <span class="nav-link">{{ $t("header.ourProducts") }}</span>
             </li>
             <li class="nav-item" id="navFoodPage">
-              <span class="nav-link">{{$t('header.news')}}</span>
+              <span class="nav-link">{{ $t("header.news") }}</span>
             </li>
             <li class="nav-item" id="navPhotoPage">
-              <span class="nav-link">{{$t('header.CorporateSocial')}}</span>
+              <span class="nav-link">{{ $t("header.CorporateSocial") }}</span>
             </li>
             <li class="nav-item" id="navEssayPage">
-              <span class="nav-link">{{$t('header.joinUs')}}</span>
+              <span class="nav-link">{{ $t("header.joinUs") }}</span>
             </li>
           </ul>
         </div>
@@ -81,9 +81,9 @@
           </el-carousel-item>
         </el-carousel>
         <div class="tit">
-          <p>{{$t('slogan.mission')}}</p>
-          <h1>{{$t('slogan.mission1')}}</h1>
-          <h1>{{$t('slogan.mission2')}}</h1>
+          <p>{{ $t("slogan.mission") }}</p>
+          <h1>{{ $t("slogan.mission1") }}</h1>
+          <h1>{{ $t("slogan.mission2") }}</h1>
         </div>
       </div>
     </div>
@@ -95,34 +95,34 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="title" data-swiper-parallax="-100">
-                  {{$t('bannerTxt.title1')}}
+                  {{ $t("bannerTxt.title1") }}
                 </div>
                 <div class="subtitle" data-swiper-parallax="-200"></div>
                 <div class="text" data-swiper-parallax="-300">
                   <p>
-                    {{$t('bannerTxt.content1')}}
+                    {{ $t("bannerTxt.content1") }}
                   </p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="title" data-swiper-parallax="-100">
-                  {{$t('bannerTxt.title2')}}
+                  {{ $t("bannerTxt.title2") }}
                 </div>
                 <div class="subtitle" data-swiper-parallax="-200"></div>
                 <div class="text" data-swiper-parallax="-300">
                   <p>
-                    {{$t('bannerTxt.content2')}}
+                    {{ $t("bannerTxt.content2") }}
                   </p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="title" data-swiper-parallax="-100">
-                  {{$t('bannerTxt.title3')}}
+                  {{ $t("bannerTxt.title3") }}
                 </div>
                 <div class="subtitle" data-swiper-parallax="-200"></div>
                 <div class="text" data-swiper-parallax="-300">
                   <p>
-                    {{$t('bannerTxt.content3')}}
+                    {{ $t("bannerTxt.content3") }}
                   </p>
                 </div>
               </div>
@@ -136,28 +136,28 @@
       <div class="row">
         <div class="col op">
           <div class="left">
-            <h2>{{$t('boxLR.title1')}}</h2>
+            <h2>{{ $t("boxLR.title1") }}</h2>
             <h5>
-              {{$t('boxLR.content1')}}
+              {{ $t("boxLR.content1") }}
             </h5>
             <button type="button" class="btn btn-outline-light">
-              {{$t('boxLR.btn')}}
+              {{ $t("boxLR.btn") }}
             </button>
-            <p class="next">{{$t('boxLR.more1')}} >></p>
+            <p class="next">{{ $t("boxLR.more1") }} >></p>
           </div>
         </div>
         <div class="col">
           <div class="right1">
             <div class="card text-center ol">
               <div class="card-body">
-                <h2 class="card-title">{{$t('boxLR.title1')}}</h2>
+                <h2 class="card-title">{{ $t("boxLR.title1") }}</h2>
                 <h5 class="card-text">
-                  {{$t('boxLR.content1')}}
+                  {{ $t("boxLR.content1") }}
                 </h5>
                 <button type="button" class="btn btn-outline-light">
-                  {{$t('boxLR.btn')}}
+                  {{ $t("boxLR.btn") }}
                 </button>
-                <p class="next">{{$t('boxLR.more1')}}</p>
+                <p class="next">{{ $t("boxLR.more1") }}</p>
               </div>
             </div>
           </div>
@@ -169,12 +169,12 @@
           <div class="right2">
             <div class="card text-center ol">
               <div class="card-body">
-                <h2 class="card-title">{{$t('boxLR.title2')}}</h2>
+                <h2 class="card-title">{{ $t("boxLR.title2") }}</h2>
                 <h5 class="card-text">
-                  {{$t('boxLR.content2')}}
+                  {{ $t("boxLR.content2") }}
                 </h5>
                 <button type="button" class="btn btn-outline-light">
-                  {{$t('boxLR.btn')}}
+                  {{ $t("boxLR.btn") }}
                 </button>
               </div>
             </div>
@@ -182,10 +182,10 @@
         </div>
         <div class="col op">
           <div class="left">
-            <h2>{{$t('boxLR.title2')}}</h2>
-            <h5>{{$t('boxLR.content2')}}</h5>
+            <h2>{{ $t("boxLR.title2") }}</h2>
+            <h5>{{ $t("boxLR.content2") }}</h5>
             <button type="button" class="btn btn-outline-light">
-              {{$t('boxLR.btn')}}
+              {{ $t("boxLR.btn") }}
             </button>
           </div>
         </div>
@@ -194,12 +194,12 @@
       <div class="row">
         <div class="col op">
           <div class="left">
-            <h2>{{$t('boxLR.title3')}}</h2>
+            <h2>{{ $t("boxLR.title3") }}</h2>
             <h5>
-              {{$t('boxLR.content3')}}
+              {{ $t("boxLR.content3") }}
             </h5>
             <button type="button" class="btn btn-outline-light">
-              {{$t('boxLR.btn')}}
+              {{ $t("boxLR.btn") }}
             </button>
           </div>
         </div>
@@ -207,12 +207,12 @@
           <div class="right3">
             <div class="card text-center ol">
               <div class="card-body">
-                <h2 class="card-title">{{$t('boxLR.title3')}}</h2>
+                <h2 class="card-title">{{ $t("boxLR.title3") }}</h2>
                 <h5 class="card-text">
-                  {{$t('boxLR.content3')}}
+                  {{ $t("boxLR.content3") }}
                 </h5>
                 <button type="button" class="btn btn-outline-light">
-                  {{$t('boxLR.btn')}}
+                  {{ $t("boxLR.btn") }}
                 </button>
               </div>
             </div>
@@ -230,11 +230,11 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">{{$t('cards.title1')}}</h5>
+              <h5 class="card-title">{{ $t("cards.title1") }}</h5>
               <p class="card-text">
-                {{$t('cards.content1')}}
+                {{ $t("cards.content1") }}
               </p>
-              <button type="button" class="btn">{{$t('cards.btn')}}</button>
+              <button type="button" class="btn">{{ $t("cards.btn") }}</button>
             </div>
           </div>
         </div>
@@ -247,11 +247,11 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">{{$t('cards.title2')}}</h5>
+              <h5 class="card-title">{{ $t("cards.title2") }}</h5>
               <p class="card-text">
-                {{$t('cards.content2')}}
+                {{ $t("cards.content2") }}
               </p>
-              <button type="button" class="btn">{{$t('cards.btn')}}</button>
+              <button type="button" class="btn">{{ $t("cards.btn") }}</button>
             </div>
           </div>
         </div>
@@ -263,11 +263,11 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">{{$t('cards.title3')}}</h5>
+              <h5 class="card-title">{{ $t("cards.title3") }}</h5>
               <p class="card-text">
-                {{$t('cards.content3')}}
+                {{ $t("cards.content3") }}
               </p>
-              <button type="button" class="btn">{{$t('cards.btn')}}</button>
+              <button type="button" class="btn">{{ $t("cards.btn") }}</button>
             </div>
           </div>
         </div>
@@ -280,11 +280,11 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">{{$t('cards.title4')}}</h5>
+              <h5 class="card-title">{{ $t("cards.title4") }}</h5>
               <p class="card-text">
-                {{$t('cards.content4')}}
+                {{ $t("cards.content4") }}
               </p>
-              <button type="button" class="btn">{{$t('cards.btn')}}</button>
+              <button type="button" class="btn">{{ $t("cards.btn") }}</button>
             </div>
           </div>
         </div>
@@ -297,29 +297,29 @@
             <div class="card text-center ol">
               <div class="card-body">
                 <h2 class="card-title">
-                  {{$t('boxLR.title4')}}
+                  {{ $t("boxLR.title4") }}
                 </h2>
                 <h5 class="card-text">
-                  {{$t('boxLR.content4')}}
+                  {{ $t("boxLR.content4") }}
                 </h5>
                 <button type="button" class="btn btn-outline-light">
-                  {{$t('boxLR.btn2')}}
+                  {{ $t("boxLR.btn2") }}
                 </button>
-                <p class="next">{{$t('boxLR.more2')}}</p>
+                <p class="next">{{ $t("boxLR.more2") }}</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col op">
           <div class="left">
-            <h2>{{$t('boxLR.title4')}}</h2>
+            <h2>{{ $t("boxLR.title4") }}</h2>
             <h5>
-              {{$t('boxLR.content4')}}
+              {{ $t("boxLR.content4") }}
             </h5>
             <button type="button" class="btn btn-outline-light">
-              {{$t('boxLR.btn2')}}
+              {{ $t("boxLR.btn2") }}
             </button>
-            <p class="next">{{$t('boxLR.more2')}}</p>
+            <p class="next">{{ $t("boxLR.more2") }}</p>
           </div>
         </div>
       </div>
@@ -338,9 +338,9 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">{{$t('three.title1')}}</h5>
+                  <h5 class="card-title">{{ $t("three.title1") }}</h5>
                   <p class="card-text">
-                    {{$t('three.content1')}}
+                    {{ $t("three.content1") }}
                   </p>
                 </div>
               </div>
@@ -357,9 +357,9 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">{{$t('three.title2')}}</h5>
+                  <h5 class="card-title">{{ $t("three.title2") }}</h5>
                   <p class="card-text">
-                   {{$t('three.content2')}}
+                    {{ $t("three.content2") }}
                   </p>
                 </div>
               </div>
@@ -376,9 +376,9 @@
                   />
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">{{$t('three.title3')}}</h5>
+                  <h5 class="card-title">{{ $t("three.title3") }}</h5>
                   <p class="card-text">
-                    {{$t('three.content3')}}
+                    {{ $t("three.content3") }}
                   </p>
                 </div>
               </div>
@@ -421,12 +421,12 @@
           <div class="col">
             <div class="card">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">{{$t('footer.aboutUs')}}</li>
-                <li class="list-group-item">{{$t('footer.aboutUs1')}}</li>
-                <li class="list-group-item">{{$t('footer.aboutUs2')}}</li>
-                <li class="list-group-item">{{$t('footer.aboutUs3')}}</li>
-                <li class="list-group-item">{{$t('footer.aboutUs4')}}</li>
-                <li class="list-group-item">{{$t('footer.aboutUs5')}}</li>
+                <li class="list-group-item">{{ $t("footer.aboutUs") }}</li>
+                <li class="list-group-item">{{ $t("footer.aboutUs1") }}</li>
+                <li class="list-group-item">{{ $t("footer.aboutUs2") }}</li>
+                <li class="list-group-item">{{ $t("footer.aboutUs3") }}</li>
+                <li class="list-group-item">{{ $t("footer.aboutUs4") }}</li>
+                <li class="list-group-item">{{ $t("footer.aboutUs5") }}</li>
               </ul>
             </div>
           </div>
@@ -436,8 +436,8 @@
           <div class="col">
             <div class="card">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">{{$t('footer.news')}}</li>
-                <li class="list-group-item">{{$t('footer.news1')}}</li>
+                <li class="list-group-item">{{ $t("footer.news") }}</li>
+                <li class="list-group-item">{{ $t("footer.news1") }}</li>
               </ul>
             </div>
           </div>
@@ -446,11 +446,21 @@
           <div class="col">
             <div class="card">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">{{$t('footer.CorporateSocial')}}</li>
-                <li class="list-group-item">{{$t('footer.CorporateSocial1')}}</li>
-                <li class="list-group-item">{{$t('footer.CorporateSocial2')}}</li>
-                <li class="list-group-item">{{$t('footer.CorporateSocial3')}}</li>
-                <li class="list-group-item">{{$t('footer.CorporateSocial4')}}</li>
+                <li class="list-group-item">
+                  {{ $t("footer.CorporateSocial") }}
+                </li>
+                <li class="list-group-item">
+                  {{ $t("footer.CorporateSocial1") }}
+                </li>
+                <li class="list-group-item">
+                  {{ $t("footer.CorporateSocial2") }}
+                </li>
+                <li class="list-group-item">
+                  {{ $t("footer.CorporateSocial3") }}
+                </li>
+                <li class="list-group-item">
+                  {{ $t("footer.CorporateSocial4") }}
+                </li>
               </ul>
             </div>
           </div>
@@ -459,8 +469,8 @@
           <div class="col">
             <div class="card">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">{{$t('footer.joinUs')}}</li>
-                <li class="list-group-item">{{$t('footer.joinUs1')}}</li>
+                <li class="list-group-item">{{ $t("footer.joinUs") }}</li>
+                <li class="list-group-item">{{ $t("footer.joinUs1") }}</li>
               </ul>
             </div>
           </div>
@@ -470,13 +480,13 @@
           <div class="row text-center">
             <div class="col align-self-center">
               <div class="end">
-                <span>{{$t('end.company')}}</span>
+                <span>{{ $t("end.company") }}</span>
                 <span>
                   <img
                     src="https://sf1-scmcdn2-tos.pstatp.com/ies/bytedance_official/_next/static/images/icp-9ca98112ae9d12370794027a9b22b221.png"
                     alt=""
                   />
-                  {{$t('end.number')}}</span
+                  {{ $t("end.number") }}</span
                 >
               </div>
             </div>
@@ -638,6 +648,7 @@ export default {
       this.i = scrollTop;
       // console.log(scrollTop);
       // console.log(scroll);
+      console.log(this.navFlag);
       if (scrollTop > 500) {
         this.navFlag = true;
         if (scroll < 0) {
@@ -753,6 +764,42 @@ export default {
 @media only screen and (max-width: 768px) {
   .txtbanner {
     padding: 2% 6% !important;
+    .swiper-container {
+      .title {
+        font-size: 18px !important;
+      }
+      .text {
+        p {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+  .logo {
+    width: 120px !important;
+    padding: 0 !important;
+  }
+  .banners {
+    padding-top: 56px;
+    .tit {
+      padding: 4rem 6% 2% 3% !important;
+    }
+  }
+  .boxLR {
+    .row {
+      height: 466px !important;
+      .card {
+        transform: scale(0.8);
+      }
+    }
+  }
+    .boxLRB {
+    .row {
+      height: 466px !important;
+      .card {
+        transform: scale(0.8);
+      }
+    }
   }
 }
 
@@ -819,6 +866,10 @@ body {
     opacity: 0.75;
     line-height: 300px;
     margin: 0;
+  }
+
+  .banners >>> .el-carousel__container button {
+    display: none !important;
   }
 
   // .el-carousel__item:nth-child(2n) {
@@ -944,7 +995,9 @@ body {
       text-decoration: none;
       line-height: 1.4;
       color: #666;
-      p {
+    }
+    .text {
+            p {
         font-size: 16px;
         line-height: 1.8em;
         // max-height: 5.4em;
