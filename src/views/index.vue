@@ -1,5 +1,11 @@
 <template>
   <div class="box">
+    <div>
+      <xinglei @getdata="receive" :message="msg"></xinglei>
+    </div>
+
+    {{ psVal }}
+
     <!-- <div class="banns">
       <swiper :options="swiperOption" ref="mySwiper">
         <swiper-slide v-for="item in banner" :key="item">
@@ -502,13 +508,16 @@ import Swiper from "swiper";
 // 引入插件
 import { swiper, swiperSlide } from "vue-awesome-swiper";
 import "swiper/swiper-bundle.css";
+import Xinglei from '../components/xinglei.vue';
 export default {
   components: {
     swiper,
-    swiperSlide,
+    Xinglei,
   },
   data() {
     return {
+      msg: [1,2,3,45,67,89],
+      psVal: '',
       swiperOption: {
         // loop: true,
         autoplay: {
@@ -638,6 +647,10 @@ export default {
   },
 
   methods: {
+     receive(val) {
+       console.log(val)
+       this.psVal = val
+    },
     handleScroll() {
       // 页面滚动距顶部距离
       var scrollTop =
