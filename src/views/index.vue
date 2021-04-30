@@ -1,24 +1,5 @@
 <template>
   <div class="box">
-    <div>
-      <xinglei @getdata="receive" :message="msg"></xinglei>
-    </div>
-
-    {{ psVal }}
-
-    <!-- <div class="banns">
-      <swiper :options="swiperOption" ref="mySwiper">
-        <swiper-slide v-for="item in banner" :key="item">
-          <img :src="item" alt="" />
-        </swiper-slide>
-        <div class="swiper-pagination" slot="pagination"></div>
-        <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div>
-      </swiper>
-    </div> -->
-
-    <!-- <div style="height: 1000px; background: #ccc"></div> -->
-
     <div class="header animated" :class="navFlag ? 'fadeInDown' : 'slideOutUp'">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <img class="logo" src="../assets/logo.png" alt="" />
@@ -54,26 +35,7 @@
         </div>
       </nav>
     </div>
-
-    <!-- <div class="banner">
-      <el-carousel
-        :width="clientWidth + 'px'"
-        :height="clientHeight + 'px'"
-        indicator-position="outside"
-        :autoplay="false"
-        class="bannerH"
-      >
-        <el-carousel-item v-for="item in banner" :key="item.index">
-          <img :src="item" alt="" />
-        </el-carousel-item>
-      </el-carousel>
-      <div class="tit">
-        <p>使命</p>
-        <h1>激发创造</h1>
-        <h1>丰富生活</h1>
-      </div>
-    </div> -->
-
+x
     <div class="banners">
       <div class="block">
         <el-carousel
@@ -232,7 +194,7 @@
           <div class="card text-center">
             <img
               class="card-img-top"
-              src="https://www.neusoft.com/cn/upload/img/business-pic1.jpg"
+              src="../assets/imgs/4.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
@@ -249,7 +211,7 @@
           <div class="card text-center">
             <img
               class="card-img-top"
-              src="https://www.neusoft.com/cn/upload/img/business-pic2.jpg"
+              src="../assets/imgs/5.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
@@ -265,7 +227,7 @@
           <div class="card text-center">
             <img
               class="card-img-top"
-              src="https://www.neusoft.com/cn/upload/img/business-pic3.jpg"
+              src="../assets/imgs/6.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
