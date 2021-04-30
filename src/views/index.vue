@@ -35,7 +35,6 @@
         </div>
       </nav>
     </div>
-x
     <div class="banners">
       <div class="block">
         <el-carousel
